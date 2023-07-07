@@ -1,0 +1,42 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 300px;
+}
+
+button {
+  width: 100%;
+  color: #3f3f3f;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px 0;
+  padding: 10px 10px;
+  transition: all 0.14s ease-out;
+  box-shadow: 2px 2px 0 #000;
+  transform: translate(-2px, -2px);
+  background-color: #ffffff;
+  color: black;
+}
+
+button:hover {
+  box-shadow: none;
+  transform: translate(0px, 0px);
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+#flip-horizontal,
+#flip-vertical {
+  width: 49%;
+}
+
+.coffee-container-annotations {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
